@@ -1,0 +1,11 @@
+.app{
+  text-align: center;
+}
+.nav{
+  border-bottom: solid 1px;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 20px;
+}
