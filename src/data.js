@@ -40,3 +40,9 @@ export const getInvoice = (number) => {
    return invoice.number === number
   })
 }
+
+export const  deleteInvoice = (number) => {
+  invoices = invoices.filter((invoice) => {
+    return invoice.number !== number;
+  })
+}
